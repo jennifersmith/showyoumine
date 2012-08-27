@@ -6,5 +6,6 @@
   :plugins [[lein-ring "0.7.4"]]
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [ring "1.1.3"]
+                 [com.novemberain/monger "1.1.2"]
                  [compojure "1.1.1"]]
   :ring {:handler showyoumine.core/app})
